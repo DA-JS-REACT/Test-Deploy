@@ -12,7 +12,7 @@ export function Navigation() {
              <Route element={<Layout />}>
                  <Route index element={<Home />} />
                 <Route path="/test-deploy" element={<Home />} />
-                <Route path="/test" element={<Test />} />
+                <Route path="/test-deploy/test" element={<Test />} />
                 
             </Route>
         </Routes>
