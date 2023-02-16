@@ -5,10 +5,12 @@ export function Header() {
     return (
         <nav>
             <ul>
-                <li>Home </li>
+                <li> <Link className="link" to="/test-deploy">
+                          Home
+                    </Link></li>
                 <li>
                     <Link className="link" to="/test-deploy/test">
-                           test
+                           Test
                     </Link>
                 </li>
                 <li>A propos</li>
