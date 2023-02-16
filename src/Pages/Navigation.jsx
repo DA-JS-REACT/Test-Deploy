@@ -13,7 +13,7 @@ export function Navigation() {
                  <Route index element={<Home />} />
                 <Route exact  path="/test-deploy" element={<Home />} />
                 <Route exact path="/test-deploy/test" element={<Test />} />
-                <Route path="*"  element={<Error />} />
+                <Route path="/test-deploy/*"  element={<Error />} />
             </Route>
         </Routes>
     );
