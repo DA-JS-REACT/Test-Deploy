@@ -5,11 +5,11 @@ export function Header() {
     return (
         <nav>
             <ul>
-                <li> <Link className="link" to="/test-deploy">
+                <li> <Link className="link" to="/">
                           Home
                     </Link></li>
                 <li>
-                    <Link className="link" to="/test-deploy/test">
+                    <Link className="link" to="/test">
                            Test
                     </Link>
                 </li>
