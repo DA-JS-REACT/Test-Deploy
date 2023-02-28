@@ -11,9 +11,9 @@ export function Navigation() {
         <Routes>
              <Route element={<Layout />}>
                  <Route index element={<Home />} />
-                <Route exact  path="/test-deploy" element={<Home />} />
-                <Route exact path="/test-deploy/test" element={<Test />} />
-                <Route path="/test-deploy/*"  element={<Error />} />
+                <Route exact  path="/" element={<Home />} />
+                <Route exact path="/test" element={<Test />} />
+                <Route path="/*"  element={<Error />} />
             </Route>
         </Routes>
     );
